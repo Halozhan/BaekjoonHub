@@ -23,13 +23,13 @@ public class Main
         }
         else {
             int eyes = 0;
-            if(a > eyes && a > b && a > c) {
+            if(a > b && a > c) {
                 eyes = a;
             }
-            if(b > eyes && b > a && b > c) {
+            if(b > a && b > c) {
                 eyes = b;
             }
-            if(c > eyes && c > a && c > b) {
+            if(c > a && c > b) {
                 eyes = c;
             }
             prize = eyes * 100;
